@@ -1,0 +1,17 @@
+{
+  "name": "SimpleCLI",
+  "version": "1.1.1",
+  "keywords": "cli, parser, command, line, interface",
+  "description": "Add a command line interface to your project the easy way",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spacehuhn/SimpleCLI.git"
+  },
+  "authors": [{
+    "name": "Stefan Kremser, Spacehuhn",
+    "email": "arduinolib@spacehuhn.com",
+    "url": "https://spacehuhn.com"
+  }],
+  "frameworks": "arduino",
+  "platforms": "*"
+}

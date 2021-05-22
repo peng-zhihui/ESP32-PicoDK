@@ -1,0 +1,37 @@
+name: Check version numbers on release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  version-check:
+    name: "Check version number"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Read version numbers
+        run: |
+          echo ::set-env name=RELEASE_VERSION::${GITHUB_REF/refs\/tags\//}
+          echo ::set-env name=SOURCE_VERSION::$(grep -E "SIMPLECLI_VERSION \"[0-9]?.[0-9]?.[0-9]?\"$" src/SimpleCLI.h | grep -oE "[0-9]?\.[0-9]?\.[0-9]?")
+          echo ::set-env name=JSON_VERSION::$(grep -E "\"version\": \"[0-9]?.[0-9]?.[0-9]?\",$" library.json | grep -oE "[0-9]?\.[0-9]?\.[0-9]?")
+          echo ::set-env name=PROPERTIES_VERSION::$(grep -E "version=[0-9]?.[0-9]?.[0-9]?$" library.properties | grep -oE "[0-9]?\.[0-9]?\.[0-9]?")
+
+      - name: Print versions
+        run: | 
+          echo "Release tag: ${{ env.RELEASE_VERSION }}"
+          echo "src/SimpleCLI.h: ${{ env.SOURCE_VERSION }}"
+          echo "library.json: ${{ env.JSON_VERSION }}"
+          echo "library.properties: ${{ env.PROPERTIES_VERSION }}"
+          
+#      - name: Delete latest Release
+#        if: env.RELEASE_VERSION != env.SOURCE_VERSION || env.RELEASE_VERSION != env.JSON_VERSION || env.RELEASE_VERSION != env.PROPERTIES_VERSION
+#        uses: ame-yu/action-delete-latest-release@v2
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Fail job
+        if: env.RELEASE_VERSION != env.SOURCE_VERSION || env.RELEASE_VERSION != env.JSON_VERSION || env.RELEASE_VERSION != env.PROPERTIES_VERSION
+        run: exit 1

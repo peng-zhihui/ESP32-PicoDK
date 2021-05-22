@@ -1,0 +1,102 @@
+#######################################
+# Syntax Coloring Map For SimpleCLI
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SimpleCLI	KEYWORD1
+Command	KEYWORD1
+CommandError	KEYWORD1
+Argument	KEYWORD1
+ArgumentType	KEYWORD1
+CommandType	KEYWORD1
+CommandErrorType	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# SimpleCLI
+parse	KEYWORD2
+errored	KEYWORD2
+countCmdQueue	KEYWORD2
+countErrorQueue	KEYWORD2
+getCmd	KEYWORD2
+getCommand	KEYWORD2
+getError	KEYWORD2
+addCmd	KEYWORD2
+addBoundlessCmd	KEYWORD2
+addSingleArgCmd	KEYWORD2
+addCommand	KEYWORD2
+addBoundlessCommand	KEYWORD2
+addSingleArgumentCommand	KEYWORD2
+toString	KEYWORD2
+setCaseSensetive	KEYWORD2
+setOnError	KEYWORD2
+
+# CommandError
+CommandError	KEYWORD2
+hasCommand	KEYWORD2
+hasArgument	KEYWORD2
+hasData	KEYWORD2
+hasCmd	KEYWORD2
+hasArg	KEYWORD2
+getType	KEYWORD2
+getArgument	KEYWORD2
+getData	KEYWORD2
+getMessage	KEYWORD2
+getCmd	KEYWORD2
+getArg	KEYWORD2
+getMsg	KEYWORD2
+
+# Command
+setCallback	KEYWORD2
+addArg	KEYWORD2
+addPosArg	KEYWORD2
+addFlagArg	KEYWORD2
+addArgument	KEYWORD2
+addPositionalArgument	KEYWORD2
+addFlagArgument	KEYWORD2
+getName	KEYWORD2
+countArgs	KEYWORD2
+getArg	KEYWORD2
+run	KEYWORD2
+
+# Argument
+isSet	KEYWORD2
+isRequired	KEYWORD2
+isOptional	KEYWORD2
+hasDefaultValue	KEYWORD2
+isReq	KEYWORD2
+isOpt	KEYWORD2
+getName	KEYWORD2
+getValue	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+# Command
+NORMAL	LITERAL1
+BOUNDLESS	LITERAL1
+SINGLE	LITERAL1
+
+# CommandError
+NULL_POINTER	LITERAL1
+EMPTY_LINE	LITERAL1
+PARSE_SUCCESSFUL	LITERAL1
+COMMAND_NOT_FOUND	LITERAL1
+UNKNOWN_ARGUMENT	LITERAL1
+MISSING_ARGUMENT	LITERAL1
+MISSING_ARGUMENT_VALUE	LITERAL1
+UNCLOSED_QUOTE	LITERAL1
+
+# Argument
+POSITIONAL	LITERAL1
+FLAG	LITERAL1
