@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: I:\onWorking\ESP32-PicoDK\1.Hardware\ESP32-PicoDK\ESP32-PicoDK.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=esp32-picodk-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=esp32-picodk-slotholes.txt|DrillLayers=gtl,gbl
