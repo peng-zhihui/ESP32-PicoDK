@@ -74,10 +74,13 @@ void setup()
     Serial.print(accelgyro.getZGyroOffset()); Serial.print("\t"); // 0
     Serial.print("\n");
     */
-
-    accelgyro.setXGyroOffset(-38);
-    accelgyro.setYGyroOffset(-27);
-    accelgyro.setZGyroOffset(38);
+//
+//    accelgyro.setXAccelOffset(0);
+//    accelgyro.setYAccelOffset(0);
+//    accelgyro.setZAccelOffset(0);
+//    accelgyro.setXGyroOffset(0);
+//    accelgyro.setYGyroOffset(-28);
+//    accelgyro.setZGyroOffset(0);
 
     // configure Arduino LED pin for output
     pinMode(LED_PIN, OUTPUT);
