@@ -74,6 +74,102 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OTRBEYFQ
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.REP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for ESP32-PicoDK\ESP32-PicoDK.RUL
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -352,68 +448,68 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Plane
-OutputName1=Power-Plane Prints
+OutputType1=Mask
+OutputName1=Solder/Paste Mask Prints
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType2=Board Stack Report
-OutputName2=Report Board Stack
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType3=ODB
-OutputName3=ODB++ Files
+OutputType3=CompositeDrill
+OutputName3=Composite Drill Drawing
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Test Points
-OutputName4=Test Point Report
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+OutputType4=IPC2581
+OutputName4=IPC-2581 Files
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=NC Drill
-OutputName5=NC Drill Files
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-Configuration5_Name1=ForceUpdateSettings
-Configuration5_Item1=False
-Configuration5_Name2=OutputConfigurationParameter1
-Configuration5_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=I:\onWorking\ESP32-PicoDK\1.Hardware\ESP32-PicoDK\ESP32-PicoDK.PcbDoc
 OutputType6=Final
 OutputName6=Final Artwork Prints
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType7=Drill
-OutputName7=Drill Drawing/Guides
+OutputType7=Board Stack Report
+OutputName7=Report Board Stack
 OutputDocumentPath7=
-OutputVariantName7=[No Variations]
+OutputVariantName7=
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+OutputType8=Plane
+OutputName8=Power-Plane Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType9=CompositeDrill
-OutputName9=Composite Drill Drawing
+OutputType9=ODB
+OutputName9=ODB++ Files
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType10=Gerber X2
-OutputName10=Gerber X2 Files
+OutputType10=NC Drill
+OutputName10=NC Drill Files
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=IPC2581
-OutputName11=IPC-2581 Files
+Configuration10_Name1=ForceUpdateSettings
+Configuration10_Item1=False
+Configuration10_Name2=OutputConfigurationParameter1
+Configuration10_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=I:\onWorking\ESP32-PicoDK\1.Hardware\ESP32-PicoDK\ESP32-PicoDK.PcbDoc
+OutputType11=Test Points
+OutputName11=Test Point Report
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
@@ -463,6 +559,12 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=Export Comments
+OutputName7=Export Comments
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
