@@ -17,7 +17,7 @@
 
 **板子设计已打样验证无误，好用记得点星星**👇
 
-![0](4.HDocs/1.Images/0.jpg)
+![0](4.Docs/1.Images/0.jpg)
 
 ##  特性
 
@@ -27,10 +27,10 @@
 * 极致迷你尺寸
 * 带配套亚克力外壳（设计中稍后更新）
 
-![1](/4.HDocs/1.Images/1.jpg)
+![1](/4.Docs/1.Images/1.jpg)
 
-![2](/4.HDocs/1.Images/2.jpg)
+![2](/4.Docs/1.Images/2.jpg)
 
-![3](/4.HDocs/1.Images/4.Hjpg)
+![3](/4.Docs/1.Images/4.jpg)
 
-![sch](4.HDocs/1.Images/sch.jpg)
+![sch](4.Docs/1.Images/sch.jpg)
