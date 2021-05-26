@@ -1,0 +1,6 @@
+.pioenvs
+.piolibdeps
+.vscode/**/* 
+.travis.yml
+platformio.ini
+lib/readme.txt
